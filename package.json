@@ -12,9 +12,15 @@
   "contributes": {
     "themes": [
       {
-        "label": "codica",
+        "label": "Codica Static",
         "uiTheme": "vs-dark",
-        "path": "./themes/codica-color-theme.json"
+        "path": "./themes/static.json"
+      },
+      {
+        "label": "Dark Codica Static",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-static.json"
+  
       }
     ]
   }
