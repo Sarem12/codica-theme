@@ -417,9 +417,9 @@
     },
     {
       "name": "keyword.operator",
-      "scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational",
+      "scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment",
       "settings": {
-        "foreground": "#dafbff"
+        "foreground": "#96c6fa"
       }
     },
     {
@@ -510,7 +510,7 @@
       "name": "Operators",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#d4d4d4"
+        "foreground": "#fcb8b8"
       }
     },
     {
@@ -753,13 +753,7 @@
         "foreground": "#dafbff"
       }
     },
-    {
-      "name": "Integers",
-      "scope": "constant.numeric",
-      "settings": {
-        "foreground": "#c7efff"
-      }
-    },
+    
     {
       "name": "Constants",
       "scope": "constant",
@@ -1817,7 +1811,7 @@
     },
     {
       "name": "js/ts italic",
-      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
+      "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.language.super",
       "settings": {
         "fontStyle": "italic"
       }
@@ -1836,11 +1830,47 @@
         "fontStyle": "italic"
       }
     },
+     {
+      "name":"boolean and numbers",
+      "scope":"constant.language.boolean, constant.language.null, constant.numeric",
+      "settings":{
+        "foreground":"#d7a2fc"
+      }
+    },
+    {
+      "name":"punctuation.support.type.property-name.begin.json",
+      "scope":"punctuation.support.type.property-name.begin.json",
+      "settings":{
+        "foreground":"#fcb8b8"
+      }
+    },
+    {
+      "name":"realtioanl operator",
+      "scope":"keyword.operator.relational",
+      "settings":{
+         "foreground":"#fa9696"
+      }
+    }
+    ,
     {
       "name": "markup.italic.markdown",
       "scope": "markup.italic.markdown",
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+     {
+      "name":"const",
+      "scope":"storage.type",
+      "settings":{
+        "fontStyle":"bold"
+      }
+    },
+    {
+      "name":"modefire",
+      "scope":"storage.modifier",
+      "settings":{
+        "fontStyle":"italic"
       }
     }
   ],
