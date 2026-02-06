@@ -1880,7 +1880,7 @@
     "selection.background": "#005fb4",
     "scrollbar.shadow": "#000000",
     "activityBar.foreground": "#ffffff",
-    "activityBar.background": "#333333",
+    "activityBar.background": "#1c1c1f",
     "activityBar.inactiveForeground": "#ffffff66",
     "activityBarBadge.foreground": "#ffffff",
     "activityBarBadge.background": "#364f60",
