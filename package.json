@@ -2,7 +2,7 @@
   "name": "codica-theme",
   "displayName": "codica-theme",
   "description": "A beautiful, superpowered theme crafted for coders, as if enchanted with a boost spell.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "axuminication",
   "engines": {
     "vscode": "^1.106.1"
@@ -23,6 +23,11 @@
         "uiTheme": "vs-dark",
         "path": "./themes/dark-static.json"
   
+      },
+      {
+        "label": "Codica White in Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-gray.json"
       }
     ]
   }
